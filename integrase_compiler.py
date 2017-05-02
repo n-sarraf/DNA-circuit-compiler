@@ -36,7 +36,6 @@ def truth_table(user_input):
     return truth_table
 
 def determine_logic_gates(truth_table):
-    if (truth_table[1]==True) & (truth_table[1]
 
 def flip(strand):
     # When two integrase sites are found in the proper configuration, flip the sequence between them.
