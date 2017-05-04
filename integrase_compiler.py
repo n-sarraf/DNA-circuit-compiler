@@ -8,6 +8,20 @@ class Strand:
     int_site = ['attB', 'attP']
     #Promoter, terminator, and integrase recognition sites.
 
+class GateLibrary:
+    #Initialize a library of logic gates
+    def __init__(self, n_in, n_out):
+        _INPUT_NAMES = n_in.toString();
+        _OUTPUT_NAMES = n_out.toString();
+
+class Gate:
+    #Initialize a logic
+
+    def __init__(self, ind, GateType, w):
+        Index = ind
+        GateType = GateType
+        Wire = w
+
 
 
 def truth_table(user_input):
